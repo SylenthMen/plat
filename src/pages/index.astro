@@ -1,0 +1,26 @@
+---
+import Imput from "../components/Imput.astro";
+import Button from "../components/ButtonUp.astro";
+import SendButton from "../components/SendButton.astro";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Chatea con tu documento pdf, reliza preguntas en base al contenido del archivo. El mejor asistente para poder saber el texto de un pdf"
+    />
+    <title>Conversa con el PDF</title>
+  </head>
+  <body class="bg-slate-950">
+    <h1 class="text-white text-3xl text-center">🤖Realiza tu pregunta</h1>
+    <div class="flex m-auto items-center justify-center h-[100vh] gap-2">
+      <Button />
+      <Imput />
+      <SendButton />
+    </div>
+  </body>
+</html>
